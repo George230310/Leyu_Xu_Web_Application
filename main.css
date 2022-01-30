@@ -1,0 +1,45 @@
+body, html
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #0C0910;
+}
+
+.bt-custom{
+    width: 45%;
+}
+
+.normal-text{
+    color: white;
+    font-size: 1em;
+}
+
+.white-font{
+    color: white;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.navbar-custom{
+    background-color: #0C0910;
+}
+
+/* responsive general font size */
+@media(min-width: 768px)
+{
+    .normal-text{
+        font-size: 1.2em;
+    }
+}
+
+@media(min-width: 992px)
+{
+    .normal-text{
+        font-size: 1.5em;
+    }
+}
