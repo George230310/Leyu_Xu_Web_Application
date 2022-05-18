@@ -2,7 +2,7 @@
     require "config.php";
 
     // establish DB connection
-    $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    $mysqli = new mysqli($db_host, $db_user, $db_pass, $db_name);
     if($mysqli->connect_errno)
     {
         echo $mysqli->connect_error;
